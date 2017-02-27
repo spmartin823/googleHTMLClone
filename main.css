@@ -1,17 +1,35 @@
 body {
     width: 100%;
     height: 100%;
+    overflow: hidden;
+}
+
+#signInButton {
+    width: 70px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 5%;
+    height: 30px;
+    font-family: "Arial Rounded MT Bold", serif;
+    font-size: 12px;
+    color: white;
+    background-color: dodgerblue;
 }
 
 #logoAndForm {
     margin-top: 15%;
-    margin-left: 40%;
+    margin-left: 42%;
 }
+ #logo {
+     margin-left: 35px;
+ }
 
 #searchBar {
-    margin-left: -10%;
-    width: 250px;
-    min-width: 55%;
+    position: relative;
+    margin-left: -100px;
+    width: 550px;
+    min-width: 200px;
+    max-width: 700px;
     height: 30px;
 }
 
@@ -23,12 +41,14 @@ body {
     margin-left: 2%;
     width: 12%;
     min-width: 60px;
+    height: 30px;
 }
 
 #imfeeling {
     position: absolute;
     margin-left: 60px;
     width: 110px;
+    height: 30px;
 }
 
 ul {
@@ -60,8 +80,9 @@ a:hover {
     position: fixed;
     padding: 15px;
     text-align: left;
-    background-color: gainsboro;
+    background-color: whitesmoke;
     left: 0;
+    border-top: solid gainsboro 1px;
 }
 
 #right-bottom {
@@ -71,5 +92,6 @@ a:hover {
     position: fixed;
     padding: 15px;
     text-align: right;
-    background-color: gainsboro;
+    background-color: whitesmoke;
+    border-top: solid gainsboro 1px;
 }
